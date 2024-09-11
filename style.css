@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    padding-right: 10px;
+}
+
+#aboutme {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.aboutme {
+    padding-right: 25px;
+}
+
+#projects {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.arrow-list {
+    list-style-type: none;
+    padding-left: 0;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.arrow-list li::before {
+    content: "→ ";
+    color: #333;
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+#skills {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 3rem;
+}
+
+.logo i {
+    padding-right: 25px;
+    text-decoration: none;
+    color: #333;
+}
+
+#contact {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+footer {
+    text-align: center;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+#hamburger {
+    display: none;
+}
+
+#hamburger i {
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 900px) {
+    nav {
+        display: none;
+    }
+
+    img {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+    }
+}
