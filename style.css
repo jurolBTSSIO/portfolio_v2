@@ -66,6 +66,7 @@ nav ul li a {
 
 .logo {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
     font-size: 3rem;
 }
